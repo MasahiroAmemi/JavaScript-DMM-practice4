@@ -51,4 +51,12 @@ switch(式) {
     式の値がいずれのcaseとも一致しない場合に実行する処理;
 }
 
-//
+//数値の場合
+switch(a) {
+  case 1:
+    console.log("aは1です")
+    break;
+  default:
+    console.log("aの値は1ではありません");
+}
+
