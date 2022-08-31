@@ -60,3 +60,12 @@ switch(a) {
     console.log("aの値は1ではありません");
 }
 
+//文字列の場合
+switch(birthplace) {
+  case "東京":
+    console.log("出身地は東京です");
+    break;
+  default:
+    console.log("出身地は東京以外です");
+}
+
