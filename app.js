@@ -35,3 +35,20 @@ if(orange < apple) {
 } else {
   alert("みかんの値段がりんごより高い");
 }
+
+//swich文での条件分岐
+switch(式) {
+  case 値A:
+    式が値A　の場合に実行する処理;
+    break;
+  case 値B:
+    式が値B　の場合に実行する処理;
+    break;
+  case 値C:
+    式が値C　の場合に実行する処理;
+    break;
+  default:
+    式の値がいずれのcaseとも一致しない場合に実行する処理;
+}
+
+//
